@@ -111,7 +111,7 @@
           <span class="papertitle">WE THE ICEBREAKER SKIT</span>
         </a>
         <br>
-        <strong>Creator</strong>,
+        <strong>Creator</strong>
         <br>
     2025
         <br>
@@ -121,50 +121,37 @@
       </td>
     </tr>
 	
-    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/bolt3d.mp4" type="video/mp4">
-          Your browser does not support the video tag.
+<tr onmouseout="radmesh_stop()" onmouseover="radmesh_start()" bgcolor="#ffffd0">
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='radmesh_image'>
+        <img src='images/dang2.jpg' width=100%>
+      </div>
+      <img src='images/dang1.jpg' width=100%>
+    </div>
+    <script type="text/javascript">
+      function radmesh_start() {
+        document.getElementById('radmesh_image').style.opacity = "1";
+      }
 
-          </video></div>
-          <img src='images/bolt3d.jpg' width="160">
-        </div>
-        <script type="text/javascript">
-          function bolt3d_start() {
-            document.getElementById('bolt3d_image').style.opacity = "1";
-          }
-
-          function bolt3d_stop() {
-            document.getElementById('bolt3d_image').style.opacity = "0";
-          }
-          bolt3d_stop()
+      function radmesh_stop() {
+        document.getElementById('radmesh_image').style.opacity = "0";
+      }
+      radmesh_stop()
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://szymanowiczs.github.io/bolt3d">
-          <span class="papertitle">Bolt3D: Generating 3D Scenes in Seconds</span>
+        <a href="https://www.facebook.com/share/p/14cHVA5h3rW/">
+          <span class="papertitle">REUNIFICATION DAY PHOTOS ALBUM</span>
         </a>
         <br>
-        <a href="https://szymanowiczs.github.io/">Stanislaw Szymanowicz</a>,
-        <a href="https://jasonyzhang.com">Jason Y. Zhang</a>,
-        <a href="https://pratulsrinivasan.github.io">Pratul Srinivasan</a>,
-        <a href="https://ruiqigao.github.io">Ruiqi Gao</a>,
-        <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
-        <a href="https://holynski.org">Aleksander Holynski</a>,
-        <a href="https://ricardomartinbrualla.com">Ricardo Martin-Brualla</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://henzler.github.io">Philipp Henzler</a>
+		<strong>Creator</strong>,
         <br>
-        <em>ICCV</em>, 2025
+        2025
         <br>
-        <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
-        /
-        <a href="https://szymanowiczs.github.io/bolt3d">arXiv</a>
         <p></p>
         <p>
-		By training a latent diffusion model to directly output 3D Gaussians we enable fast (~6 seconds on a single GPU) feed-forward 3D scene generation.
+		Some of the photos were also used by FTU Times and Yo News. If you have been once familiar with the 30/4 style background of Yo News notification posts, yep that's my photo in the background.
         </p>
       </td>
     </tr>
